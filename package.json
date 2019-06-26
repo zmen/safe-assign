@@ -1,0 +1,25 @@
+{
+  "name": "safe-assign",
+  "version": "0.1.0",
+  "description": "alternative to Objest.assign",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmen/safe-assign.git"
+  },
+  "keywords": [
+    "Object.assign"
+  ],
+  "author": "zmen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zmen/safe-assign/issues"
+  },
+  "homepage": "https://github.com/zmen/safe-assign#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}

@@ -2,16 +2,10 @@
 
 Substitution to Object.assign with deep assign and type safe
 
-## Install
-
-```shell
-$ npm install safe-assign
-```
-
 ## Usage
 
 ```javascript
-const safeAssign = require('safe-assign')
+const safeAssign = require('./safe-assign')
 
 safeAssign({foo: 0}, {bar: 1})
 //=> {foo: 0, bar: 1}
