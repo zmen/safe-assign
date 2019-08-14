@@ -1,6 +1,6 @@
 {
   "name": "safe-assign",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "alternative to Objest.assign",
   "main": "./dist/safe-assign.common.js",
   "module": "./dist/safe-assign.esm.js",
@@ -22,13 +22,11 @@
   },
   "homepage": "https://github.com/zmen/safe-assign#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.4.5",
     "jest": "^24.8.0",
+    "rollup": "^1.16.2",
+    "rollup-plugin-uglify": "^6.0.2",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-node-resolve": "^5.1.0"
-  },
-  "dependencies": {
-    "@babel/preset-env": "^7.4.5",
-    "rollup": "^1.16.2",
-    "rollup-plugin-uglify": "^6.0.2"
   }
 }
