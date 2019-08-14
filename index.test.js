@@ -1,4 +1,4 @@
-const safeAssign = require('./index')
+const safeAssign = require('./dist/safe-assign.common')
 
 test('should throw when target is null/undefined', () => {
   expect(() => safeAssign(null, {})).toThrow()
